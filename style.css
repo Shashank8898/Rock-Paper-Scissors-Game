@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+}
+body{
+    background-image: url("martin-martz-SIhcZYEwMB0-unsplash.jpg");
+    background-size: cover;
+}
+header{
+    height: 100px;
+    background-color: black;
+    font-family: "Stick", sans-serif;
+    font-weight: 400;
+    font-style: normal;      
+}
+.upar{
+    color: 	#ff962c;
+    font-size: 4rem;
+    line-height: 4rem;
+}
+.choices{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+}
+.choice{
+    height: 250px;
+    width: 250px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 50%;
+    background-image: url("14a1461d721c01813a803eec4b76b2be.jpg");
+    background-size: cover;
+    
+}    
+.choice:hover{
+    border: 5px #331f49 solid;
+    opacity: 0.8;
+    background-color: white;
+    cursor: pointer;
+}
+img{
+    height: 180px;
+    width: 180px;
+    padding-top: 30px;
+}
+.Scoreboard{
+    display: flex;
+    justify-content: center ;
+    margin-top: 100px;
+    gap: 15rem;
+    height: 5rem;
+}
+#userscore,#computerscore{
+    font-size: 4rem;
+    font-family: "Zen Dots", sans-serif;
+}
+.msg-container{
+    background-color: 	blue;
+    display: inline-block;
+    margin-top: rem;
+    height: 3rem;
+    width: 40%;
+    font-size: 1.6rem;
+    line-height: 3rem;
+    font-family: "Press Start 2P", system-ui;
+}
+#msg{
+    color: black;
+
+}
